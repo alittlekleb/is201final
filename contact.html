@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+              <!--
+An on-page anchor
+
+You also need to link to (and apply) a stylesheet that you have created from scratch. This stylesheet should include:
+At least four style definitions (it is possible you will have many more than four styles)
+Styles that specify font color
+Styles that specify font family
+At least three divs that are positioned and styled using your styles
+A live and interactive embedded Tableau graph (not just a picture of one).
+This graph can be about anything. It doesn’t have to be a graph you created, although it certainly can be.
+A quick Google search will show you where to find cool Tableau visualizations.
+Navigation back to the professional-looking pages.
+Your professional-looking pages do not need to link to this page. This way you can use the professional side for whatever you want without worrying someone might find this DIY page…
+If you are a graduate student, you must also include a link on this from-scratch page to your extra page (see below).-->
+        <title>From Scratch Page</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: 'Arial', sans-serif;
+            }
+            header{
+                background-image: url('https://visitutahkenticoprod.blob.core.windows.net/cmsroot/visitutah/media/site-assets/three-season-photography/northern-utah/northern-2/morethanjustforests_ashley__-sheepcreek_01_fullres_large_1.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #ffffff;
+                text-align: center;
+                padding: 100px 0; 
+            }
+            h1{
+                font-size: 2.5em;
+                margin-bottom: 20px;
+                padding-left: 10px;
+            }
+            p{
+                font-size: 1.2em;
+                color: darkgreen;
+            }
+            li{
+                display: inline-block;
+                margin-right: 10px;  
+            }
+            a {
+            display: inline-block;
+            padding: 3px 5px;
+            text-decoration: none;
+            background-color: #3498db; 
+            color: #ffffff; 
+            border-radius: 5px; 
+        }
+              .container {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .second-div {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .third-div {
+            background-color: #ffd700;
+            padding: 20px;
+            text-align: right;
+        }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+              <div>
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home Page</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Extras</a></li>
+                    </ul>
+                </div>
+        <!-- Page Header-->
+        <header>
+                        <div>
+                            <h1>Extras</h1>
+                            <h2><a href="#music">Listen to Some Music</a></h2>
+                            <span class="subheading"></span>
+                        </div>
+        </header>
+        
+            <h1>Contents</h1>
+                <ol>Click to skip down to your desired section: </ol>
+                     <ul><a href="#music">Music I study with</a></ul>
+                     <ul><a href="#data">Data about Star Wars and Star Trek</a></ul>
+                     <ul><a href="#idk">My Opinion on Star Wars and Star Trek</a></ul>
+        <div id="music">
+        <p>Music I study too</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=0uSAbsJ0F_8&t=219s" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        
+        <div id="data">
+                <p>Ever wondered about Star Trek and Star Wars IMDB ratings?</p>
+                <div class='tableauPlaceholder' id='viz1702266524774' style='position: relative'><noscript><a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;starwarsstartec&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='starwarsstartec&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;starwarsstartec&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1702266524774');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);   </script>
+            
+        </div>
+            
+<div id="idk">
+            <p>Additional Information</p>
+            <div class="container">
+    <h2>Why Star Wars is Better</h2>
+    <p>Using this text in a container style I will proceed to explain why Star Wars is special. Playing with lightsabers has got to be one of the coolest things a kid can do! </p>
+</div>
+
+<!-- Third div with a different background color and alignment -->
+<div class="third-div">
+    <h2>Why Star Trek is Better</h2>
+    <p>Using this text on a different background color I will proceed to explain why Star Trek is special to me. It holds a special place in my heart because my Mom and Dad in their young college days would hunker down in their freezing dorm in the winters under a blanket to watch this show together and it therefore has been part of my upbringing</p>
+    <a href="#">Back to Top!</a>
+</div>
+        </div>
+
+                    <!--
+An on-page anchor
+A custom background color or image
+You also need to link to (and apply) a stylesheet that you have created from scratch. This stylesheet should include:
+At least four style definitions (it is possible you will have many more than four styles)
+Styles that specify font color
+Styles that specify font family
+At least three divs that are positioned and styled using your styles
+A live and interactive embedded Tableau graph (not just a picture of one).
+This graph can be about anything. It doesn’t have to be a graph you created, although it certainly can be.
+A quick Google search will show you where to find cool Tableau visualizations.
+Navigation back to the professional-looking pages.
+Your professional-looking pages do not need to link to this page. This way you can use the professional side for whatever you want without worrying someone might find this DIY page…
+If you are a graduate student, you must also include a link on this from-scratch page to your extra page (see below).-->
+        <!-- Footer-->
+        <footer>
+        
+        </footer>
+    </body>
+</html>
